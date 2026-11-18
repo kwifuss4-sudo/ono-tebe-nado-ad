@@ -1,4 +1,3 @@
-/* Шапка сайта */
 .header {
   display: grid;
   grid-template-columns: 1fr min-content 1fr;
@@ -45,7 +44,6 @@
   height: 100%;
 }
 
-/* Общий блок контактов (шапка и подвал) */
 .address {
   display: flex;
   flex-direction: column;
@@ -73,7 +71,6 @@
   margin: 0;
 }
 
-/* Переиспользуемый затемняющий слой */
 .overlay {
   position: absolute;
   inset: 0;
@@ -81,7 +78,6 @@
   background-color: rgba(0, 0, 0, 0.6);
 }
 
-/* Секция Cover (Обложка) */
 .cover {
   position: relative;
   max-width: 1100px;
@@ -166,7 +162,6 @@
   cursor: pointer;
 }
 
-/* Секция Lots (Лоты) */
 .lots {
   max-width: 1052px;
   margin: 180px auto 0;
@@ -261,7 +256,6 @@
   text-decoration: none;
 }
 
-/* Секция About (Об аукционе) */
 .about {
   display: grid;
   grid-template-columns: 334px 1fr;
@@ -310,7 +304,6 @@
   margin: 0;
 }
 
-/* Подвал сайта */
 .footer {
   display: grid;
   grid-template-columns: 1fr min-content 1fr;
